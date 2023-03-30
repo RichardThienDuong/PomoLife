@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome Screen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/images/favicons/icons8-square-clock-pastel-glyph-16.png">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="manifest" href="/assets/images/favicons/manifest.json">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaCqS6aD8sKVbzO0wnaG1NTek9GZ_w0j4&libraries=places"></script>
+    <!-- <script src="/assets/js/cookies.js"></script> -->
+  </head>
+  <body class="flexcenter takeLooks white-bg-img">
+    <h1 id="greetings"></h1>
+   
+    <form action="index.html" method="get">
+        <span>Hello!  </span>
+      <input type="text" id="name" name="name" placeholder="name" required>
+      <span>based in </span>
+      <input type="text" id="location-input" placeholder="Enter city and state, e.g. San Francisco, CA">
+      <select id="location-dropdown" style="display:none;"></select>
+      <br>
+      <button type="submit">Enter</button>
+    </form>
+
+    <script src="/assets/js/pre-index.js"></script>
+    
+  </body>
+</html>

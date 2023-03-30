@@ -1,0 +1,10 @@
+{
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "https://maps.googleapis.com/maps/api/$1",
+        "methods": ["GET"]
+      }
+    ]
+  }
+

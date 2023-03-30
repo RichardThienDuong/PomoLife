@@ -1,0 +1,33 @@
+/*!
+Name:       Richard Thien Duong
+Version:    1.0.0
+Date Created: 03/29/23
+Last Modified: 03/29/23
+Author:     richardthienduong
+Author URI: https://hisuby.com/me/
+*/
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('/assets/fonts/take_looks/TakeLooks.ttf') format('truetype');
+}
+
+.takeLooks {
+    font-family: 'MyFont', sans-serif;
+}
+
+.flexcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.white-bg-img {
+    background-image: url('/assets/images/background_images/vitalis-hirschmann-4ErRQkRiOv4-unsplash.jpg')
+}
