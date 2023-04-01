@@ -7,7 +7,7 @@ app.use('/api', createProxyMiddleware({
   target: 'https://maps.googleapis.com',
   changeOrigin: true,
   onProxyRes: function(proxyRes, req, res) {
-    proxyRes.headers['Access-Control-Allow-Origin'] = 'https://your-project.vercel.app';
+    proxyRes.headers['Access-Control-Allow-Origin'] = 'https://pomodoro-life.vercel.app';
     proxyRes.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS, PUT, DELETE';
     proxyRes.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization';
   }
