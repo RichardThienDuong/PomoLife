@@ -5,6 +5,10 @@
         "dest": "https://maps.googleapis.com/maps/api/$1",
         "methods": ["GET"]
       }
-    ]
+    ],
+    "functions": {
+      "api/google-places": {
+        "handler": "index.js"
+      }
+    }
   }
-
